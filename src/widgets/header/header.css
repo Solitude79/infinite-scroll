@@ -1,0 +1,21 @@
+.Header{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  gap: 15%;
+}
+
+.Header__Line{
+  background: purple;
+  opacity: 0.6;
+  width: 80%;
+  height: 1px;
+}
+
+.Header__Title{
+  font-size: 40px;
+  font-weight: 800;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
